@@ -40,8 +40,9 @@
 .navButton {
   position: relative;
   padding: 0.75rem 2rem;
+  font-family: "HeirofLight", sans-serif;
   font-size: 1.25rem;
-  font-weight: 500;
+  font-weight: bold;
   color: white;
   letter-spacing: 0.05em;
   border: none;
@@ -64,10 +65,11 @@
 }
 
 .navSubtext {
+  font-family: "HeirofLight", sans-serif;
   font-style: italic;
   font-size: 0.75rem;
   color: rgba(180, 180, 180, 0.7);
   margin-bottom: 0.5rem;
-  font-weight: 300;
+  font-weight: normal;
   letter-spacing: 0.03em;
 }

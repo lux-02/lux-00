@@ -11,7 +11,7 @@ export default function HomeButton() {
       className={styles.container}
     >
       <Link href="/" className={styles.button}>
-        ← 홈으로
+        ← Main
       </Link>
     </motion.div>
   );

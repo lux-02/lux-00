@@ -15,8 +15,9 @@
 }
 
 .quote {
+  font-family: "HeirofLight", sans-serif;
   font-size: 1.75rem;
-  font-weight: 300;
+  font-weight: bold;
   color: white;
   text-align: center;
   line-height: 1.6;
@@ -25,13 +26,16 @@
 }
 
 .quoteEn {
+  font-family: "HeirofLight", sans-serif;
   font-size: 1.125rem;
+  font-weight: normal;
   color: rgba(180, 180, 180, 0.8);
   display: block;
   margin-top: 0.5rem;
 }
 
 .description {
+  font-family: "HeirofLight", sans-serif;
   font-size: 1.1rem;
   line-height: 1.8;
   color: white;
