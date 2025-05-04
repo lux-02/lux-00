@@ -1,0 +1,73 @@
+.container {
+  position: relative;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+  overflow: hidden;
+}
+
+.contentContainer {
+  z-index: 20;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 1rem;
+  width: 100%;
+  max-width: 36rem;
+}
+
+.logoContainer {
+  position: relative;
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.navButton {
+  position: relative;
+  padding: 0.75rem 2rem;
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: white;
+  letter-spacing: 0.05em;
+  border: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  background-color: transparent;
+  transition: all 0.3s ease;
+  width: 100%;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.navButton:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  transform: scale(1.05);
+  text-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+}
+
+.navSubtext {
+  font-style: italic;
+  font-size: 0.75rem;
+  color: rgba(180, 180, 180, 0.7);
+  margin-bottom: 0.5rem;
+  font-weight: 300;
+  letter-spacing: 0.03em;
+}
