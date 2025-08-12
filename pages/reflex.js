@@ -9,8 +9,8 @@ export default function Reflex() {
         상호작용은 세상을 더 따뜻하고 아름답게 만드는 연결의 시작이 된다.
       </p>
       <p className="text-gray-400">
-        Design is not mere decoration. It's a language that speaks emotion and
-        thought. <br />
+        Design is not mere decoration. It&apos;s a language that speaks emotion
+        and thought. <br />
         Through interaction, I build connections that make the world warmer,
         more beautiful. <br />
         Just as light reflects, I design to resonate with people and places
